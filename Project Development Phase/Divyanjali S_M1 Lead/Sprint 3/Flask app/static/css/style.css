@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family:montserrat;
+}
+.pd{
+padding-bottom:100%;}
+body
+{
+background-image:url('https://images.wallpaperscraft.com/image/single/water_underwater_depth_197405_3840x2160.jpg');
+background-position: center;
+font-family:sans-serif;
+background-size:cover;
+margin-top:40px;
+}
+
+
+.main{
+	background-color:rgb(0,0,0,0.6);
+	width:800px;
+	height:500px;
+	margin:auto;
+	position:center;
+	border-top-left-radius:100px;
+	border-bottom-right-radius:100px;
+
+}
+.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #dbbf34;
+	padding:10px 3px;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition:0.25s;
+	
+}
+.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus{
+	width:280px;
+	border-color:whitesmoke;
+}
+.logbtn{
+	display:block;
+	width:35%;
+	height:50px;
+	border:none;
+	border-radius:24px;
+	background:linear-gradient(120deg,#dbbf34,#8e44ad,#dbbf34);
+	background-size:200%;
+	color:#fff;
+	outline:none;
+	cursor:pointer;
+	transition:.5s;
+}
+.logbtn:hover{
+	background-position:right;
+}
+.predict{
+	text-align:center;
+	color:black;
+
+}
