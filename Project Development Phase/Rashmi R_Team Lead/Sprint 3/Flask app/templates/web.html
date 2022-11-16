@@ -1,0 +1,127 @@
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div.header{
+  top: 0;
+  position: relative;
+  padding-left: 100px;}
+div.header1{
+  top:20;
+  position: relative;
+  padding-left: 190px;
+}
+
+*{
+        margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	text-decoration:none;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body
+{
+background-image:url('https://images.wallpaperscraft.com/image/single/water_underwater_depth_197405_3840x2160.jpg');
+background-position: center;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-size:cover;
+margin-top:40px;
+}
+
+
+.main{
+	background-color:rgb(0,0,0,0.6);
+    
+	width:800px;
+	height:590px;
+	margin:auto;
+	position:center;
+	border-top-left-radius:100px;
+	border-bottom-right-radius:100px;
+
+}
+.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"],.main input[type="text"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #FFFFFF;
+	padding:10px 3px;
+	width:200px;
+	outline:none;
+	color:yellowgreen;
+	border-radius:24px;
+	transition:0.25s;
+	
+}
+.bor{
+border:0;
+	background:none;
+	display:block;
+	margin:30px auto;
+	text-align:center;
+	border:5px solid hwb(0 0% 0%);
+	padding:20px 6px;
+	width:600px;
+	outline:none;
+	color:lightcoral;
+	transition:0.25s;}
+.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus,.main input[type="text"]:focus{
+	width:280px;
+	border-color: whitesmoke;
+}
+.logbtn{
+	display:block;
+	width:35%;
+	height:50px;
+	border:none;
+	border-radius:24px;
+	background:linear-gradient(hsl(190, 100%, 50%));
+	background-size:200%;
+	color:black;
+	outline:none;
+	cursor:pointer;
+	transition:.5s;
+	font-size:25;
+}
+.logbtn:hover{
+	background-position:right;
+}
+
+input::placeholder{
+	color:palevioletred;
+}
+.bottom-text{
+	margin-top:60px;
+	text-align:center;
+	font-size:13px;
+
+}
+
+
+</style>
+<body>
+	
+	<center><div class="header1"><font color="white" font-family="sans-serif" size=7 ><b>Water Quality Analysis and Prediction</b></font></div></center>
+	
+	
+<br><br><br><br><br>
+	<form class="main" action="/login" method="post">
+		<br>
+		<center><input type="text" name="year" placeholder="Enter the value of Year"/>
+		<input type="text" name="do" placeholder="Enter the value of D.O "/>
+		<input type="text" name="ph" placeholder="Enter the value of PH"/>
+		<input type="text" name="co" placeholder="Enter the value of Conductivity"/>
+		<input type="text" name="bod" placeholder="Enter the value of B.O.D"/>
+		<input type="text" name="na" placeholder="Enter the value of Nitratenen"/>
+		<input type="text" name="tc" placeholder="Enter the value of Total Coliform"/>
+		<input type="submit" class="logbtn" value="Predict The Result"></center>
+		<div class="bor"><center><b><font color="white" size=3>{{showcase}}</font></b></center></div>
+	</form>
+
+
+</body>
+
+</html>
